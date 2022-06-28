@@ -1,0 +1,124 @@
+TESTES: 24/24   10,0
+
+- dump da árvore ficou muito bom
+
+IMPLEMENTAÇÃO: Ok
+
+*quadtree.h
+- insereQtStart, insereQtAux,.... são funções privadas, não devem estar no .h (também em hashtable.h)
+
+##
+## COMPILANDO  AS SUBMISSOES
+##
+
+====> COMPILANDO: gabrielpgs-guilhermehgs
+
+## COMPILANDO SUBMISSAO DO ALUNO: /home/eb/Dropbox/ED/CorrTrab/2020/t4/alunos/gabrielpgs-guilhermehgs/src
+   > removendo .o pre-existentes 
+  > compilando
+.[2021-03-15T10:33:37.404131].
+.[2021-03-15T10:33:44.356628].
+##
+## TESTANDO AS SUBMISSOES
+##
+
+====> TESTANDO: gabrielpgs-guilhermehgs
+
+===== EXECUTANDO TESTES: 
+    > dir_tst:/home/eb/Dropbox/ED/CorrTrab/2020/t4/t
+    > dir saida: /home/eb/Dropbox/ED/CorrTrab/2020/t4/alunos/gabrielpgs-guilhermehgs/o
+    > prog: /home/eb/Dropbox/ED/CorrTrab/2020/t4/alunos/gabrielpgs-guilhermehgs/src/siguel
+    > ecpm: True
+    > comVias: False
+    > comBd: False
+   > removendo arquivos  pre-existentes: /home/eb/Dropbox/ED/CorrTrab/2020/t4/alunos/gabrielpgs-guilhermehgs/o  *.txt 
+
+   > removendo arquivos  pre-existentes: /home/eb/Dropbox/ED/CorrTrab/2020/t4/alunos/gabrielpgs-guilhermehgs/o  *.svg 
+
+   > arq =  /home/eb/Dropbox/ED/CorrTrab/2020/t4/t/c1.geo
+>> /home/eb/Dropbox/ED/CorrTrab/2020/t4/alunos/gabrielpgs-guilhermehgs/src/siguel  -e /home/eb/Dropbox/ED/CorrTrab/2020/t4/t  -o /home/eb/Dropbox/ED/CorrTrab/2020/t4/alunos/gabrielpgs-guilhermehgs/o -f c1.geo  -ec c1.ec -pm c1.pm  
+
+.[2021-03-15T10:33:44.359023].
+   > nomearq: c1 
+
+   dirqry: /home/eb/Dropbox/ED/CorrTrab/2020/t4/t/c1 
+>> /home/eb/Dropbox/ED/CorrTrab/2020/t4/alunos/gabrielpgs-guilhermehgs/src/siguel  -e /home/eb/Dropbox/ED/CorrTrab/2020/t4/t  -o /home/eb/Dropbox/ED/CorrTrab/2020/t4/alunos/gabrielpgs-guilhermehgs/o -f c1.geo  -ec c1.ec -pm c1.pm   -q c1/catac-centrosul-cidade-amplo.qry
+
+.[2021-03-15T10:33:44.474534].
+>> /home/eb/Dropbox/ED/CorrTrab/2020/t4/alunos/gabrielpgs-guilhermehgs/src/siguel  -e /home/eb/Dropbox/ED/CorrTrab/2020/t4/t  -o /home/eb/Dropbox/ED/CorrTrab/2020/t4/alunos/gabrielpgs-guilhermehgs/o -f c1.geo  -ec c1.ec -pm c1.pm   -q c1/classe-5.qry
+
+.[2021-03-15T10:33:44.661010].
+>> /home/eb/Dropbox/ED/CorrTrab/2020/t4/alunos/gabrielpgs-guilhermehgs/src/siguel  -e /home/eb/Dropbox/ED/CorrTrab/2020/t4/t  -o /home/eb/Dropbox/ED/CorrTrab/2020/t4/alunos/gabrielpgs-guilhermehgs/o -f c1.geo  -ec c1.ec -pm c1.pm   -q c1/mudanca-morador.qry
+
+.[2021-03-15T10:33:44.823394].
+>> /home/eb/Dropbox/ED/CorrTrab/2020/t4/alunos/gabrielpgs-guilhermehgs/src/siguel  -e /home/eb/Dropbox/ED/CorrTrab/2020/t4/t  -o /home/eb/Dropbox/ED/CorrTrab/2020/t4/alunos/gabrielpgs-guilhermehgs/o -f c1.geo  -ec c1.ec -pm c1.pm   -q c1/catac-dump-1.qry
+
+.[2021-03-15T10:33:44.949623].
+>> /home/eb/Dropbox/ED/CorrTrab/2020/t4/alunos/gabrielpgs-guilhermehgs/src/siguel  -e /home/eb/Dropbox/ED/CorrTrab/2020/t4/t  -o /home/eb/Dropbox/ED/CorrTrab/2020/t4/alunos/gabrielpgs-guilhermehgs/o -f c1.geo  -ec c1.ec -pm c1.pm   -q c1/classe-500.qry
+
+.[2021-03-15T10:33:45.326942].
+>> /home/eb/Dropbox/ED/CorrTrab/2020/t4/alunos/gabrielpgs-guilhermehgs/src/siguel  -e /home/eb/Dropbox/ED/CorrTrab/2020/t4/t  -o /home/eb/Dropbox/ED/CorrTrab/2020/t4/alunos/gabrielpgs-guilhermehgs/o -f c1.geo  -ec c1.ec -pm c1.pm   -q c1/eplg-1.qry
+
+.[2021-03-15T10:33:45.690924].
+>> /home/eb/Dropbox/ED/CorrTrab/2020/t4/alunos/gabrielpgs-guilhermehgs/src/siguel  -e /home/eb/Dropbox/ED/CorrTrab/2020/t4/t  -o /home/eb/Dropbox/ED/CorrTrab/2020/t4/alunos/gabrielpgs-guilhermehgs/o -f c1.geo  -ec c1.ec -pm c1.pm   -q c1/moradores-cep-2.qry
+
+.[2021-03-15T10:33:45.854077].
+>> /home/eb/Dropbox/ED/CorrTrab/2020/t4/alunos/gabrielpgs-guilhermehgs/src/siguel  -e /home/eb/Dropbox/ED/CorrTrab/2020/t4/t  -o /home/eb/Dropbox/ED/CorrTrab/2020/t4/alunos/gabrielpgs-guilhermehgs/o -f c1.geo  -ec c1.ec -pm c1.pm   -q c1/catac-meio-cidade-amplo.qry
+
+.[2021-03-15T10:33:45.990232].
+>> /home/eb/Dropbox/ED/CorrTrab/2020/t4/alunos/gabrielpgs-guilhermehgs/src/siguel  -e /home/eb/Dropbox/ED/CorrTrab/2020/t4/t  -o /home/eb/Dropbox/ED/CorrTrab/2020/t4/alunos/gabrielpgs-guilhermehgs/o -f c1.geo  -ec c1.ec -pm c1.pm   -q c1/dados-morador.qry
+
+.[2021-03-15T10:33:46.182778].
+>> /home/eb/Dropbox/ED/CorrTrab/2020/t4/alunos/gabrielpgs-guilhermehgs/src/siguel  -e /home/eb/Dropbox/ED/CorrTrab/2020/t4/t  -o /home/eb/Dropbox/ED/CorrTrab/2020/t4/alunos/gabrielpgs-guilhermehgs/o -f c1.geo  -ec c1.ec -pm c1.pm   -q c1/classe-2000.qry
+
+.[2021-03-15T10:33:46.352280].
+>> /home/eb/Dropbox/ED/CorrTrab/2020/t4/alunos/gabrielpgs-guilhermehgs/src/siguel  -e /home/eb/Dropbox/ED/CorrTrab/2020/t4/t  -o /home/eb/Dropbox/ED/CorrTrab/2020/t4/alunos/gabrielpgs-guilhermehgs/o -f c1.geo  -ec c1.ec -pm c1.pm   -q c1/1000-dados-morador.qry
+
+.[2021-03-15T10:33:50.678125].
+>> /home/eb/Dropbox/ED/CorrTrab/2020/t4/alunos/gabrielpgs-guilhermehgs/src/siguel  -e /home/eb/Dropbox/ED/CorrTrab/2020/t4/t  -o /home/eb/Dropbox/ED/CorrTrab/2020/t4/alunos/gabrielpgs-guilhermehgs/o -f c1.geo  -ec c1.ec -pm c1.pm   -q c1/1000-dados-estabelecimentos.qry
+
+.[2021-03-15T10:33:50.911644].
+>> /home/eb/Dropbox/ED/CorrTrab/2020/t4/alunos/gabrielpgs-guilhermehgs/src/siguel  -e /home/eb/Dropbox/ED/CorrTrab/2020/t4/t  -o /home/eb/Dropbox/ED/CorrTrab/2020/t4/alunos/gabrielpgs-guilhermehgs/o -f c1.geo  -ec c1.ec -pm c1.pm   -q c1/moradores-cep-1.qry
+
+.[2021-03-15T10:33:51.102765].
+>> /home/eb/Dropbox/ED/CorrTrab/2020/t4/alunos/gabrielpgs-guilhermehgs/src/siguel  -e /home/eb/Dropbox/ED/CorrTrab/2020/t4/t  -o /home/eb/Dropbox/ED/CorrTrab/2020/t4/alunos/gabrielpgs-guilhermehgs/o -f c1.geo  -ec c1.ec -pm c1.pm   -q c1/eplg-4.qry
+
+.[2021-03-15T10:33:51.233845].
+>> /home/eb/Dropbox/ED/CorrTrab/2020/t4/alunos/gabrielpgs-guilhermehgs/src/siguel  -e /home/eb/Dropbox/ED/CorrTrab/2020/t4/t  -o /home/eb/Dropbox/ED/CorrTrab/2020/t4/alunos/gabrielpgs-guilhermehgs/o -f c1.geo  -ec c1.ec -pm c1.pm   -q c1/dados-estabelecimentos.qry
+
+.[2021-03-15T10:33:51.385775].
+   > arq =  /home/eb/Dropbox/ED/CorrTrab/2020/t4/t/c2.geo
+>> /home/eb/Dropbox/ED/CorrTrab/2020/t4/alunos/gabrielpgs-guilhermehgs/src/siguel  -e /home/eb/Dropbox/ED/CorrTrab/2020/t4/t  -o /home/eb/Dropbox/ED/CorrTrab/2020/t4/alunos/gabrielpgs-guilhermehgs/o -f c2.geo  -ec c2.ec -pm c2.pm  
+
+.[2021-03-15T10:33:51.546770].
+   > nomearq: c2 
+
+   dirqry: /home/eb/Dropbox/ED/CorrTrab/2020/t4/t/c2 
+>> /home/eb/Dropbox/ED/CorrTrab/2020/t4/alunos/gabrielpgs-guilhermehgs/src/siguel  -e /home/eb/Dropbox/ED/CorrTrab/2020/t4/t  -o /home/eb/Dropbox/ED/CorrTrab/2020/t4/alunos/gabrielpgs-guilhermehgs/o -f c2.geo  -ec c2.ec -pm c2.pm   -q c2/catac-centrosul-cidade-amplo.qry
+
+.[2021-03-15T10:33:56.413070].
+>> /home/eb/Dropbox/ED/CorrTrab/2020/t4/alunos/gabrielpgs-guilhermehgs/src/siguel  -e /home/eb/Dropbox/ED/CorrTrab/2020/t4/t  -o /home/eb/Dropbox/ED/CorrTrab/2020/t4/alunos/gabrielpgs-guilhermehgs/o -f c2.geo  -ec c2.ec -pm c2.pm   -q c2/classe-5.qry
+
+.[2021-03-15T10:34:08.460811].
+>> /home/eb/Dropbox/ED/CorrTrab/2020/t4/alunos/gabrielpgs-guilhermehgs/src/siguel  -e /home/eb/Dropbox/ED/CorrTrab/2020/t4/t  -o /home/eb/Dropbox/ED/CorrTrab/2020/t4/alunos/gabrielpgs-guilhermehgs/o -f c2.geo  -ec c2.ec -pm c2.pm   -q c2/mudanca-morador.qry
+
+.[2021-03-15T10:34:18.755053].
+>> /home/eb/Dropbox/ED/CorrTrab/2020/t4/alunos/gabrielpgs-guilhermehgs/src/siguel  -e /home/eb/Dropbox/ED/CorrTrab/2020/t4/t  -o /home/eb/Dropbox/ED/CorrTrab/2020/t4/alunos/gabrielpgs-guilhermehgs/o -f c2.geo  -ec c2.ec -pm c2.pm   -q c2/catac-dump-1.qry
+
+.[2021-03-15T10:34:24.534635].
+>> /home/eb/Dropbox/ED/CorrTrab/2020/t4/alunos/gabrielpgs-guilhermehgs/src/siguel  -e /home/eb/Dropbox/ED/CorrTrab/2020/t4/t  -o /home/eb/Dropbox/ED/CorrTrab/2020/t4/alunos/gabrielpgs-guilhermehgs/o -f c2.geo  -ec c2.ec -pm c2.pm   -q c2/catac-meio-cidade-amplo.qry
+
+.[2021-03-15T10:34:46.998102].
+>> /home/eb/Dropbox/ED/CorrTrab/2020/t4/alunos/gabrielpgs-guilhermehgs/src/siguel  -e /home/eb/Dropbox/ED/CorrTrab/2020/t4/t  -o /home/eb/Dropbox/ED/CorrTrab/2020/t4/alunos/gabrielpgs-guilhermehgs/o -f c2.geo  -ec c2.ec -pm c2.pm   -q c2/mudancas-com-verificacao.qry
+
+.[2021-03-15T10:35:07.993436].
+>> /home/eb/Dropbox/ED/CorrTrab/2020/t4/alunos/gabrielpgs-guilhermehgs/src/siguel  -e /home/eb/Dropbox/ED/CorrTrab/2020/t4/t  -o /home/eb/Dropbox/ED/CorrTrab/2020/t4/alunos/gabrielpgs-guilhermehgs/o -f c2.geo  -ec c2.ec -pm c2.pm   -q c2/dq-dumpt-grande.qry
+
+.[2021-03-15T10:35:14.273967].
+>> /home/eb/Dropbox/ED/CorrTrab/2020/t4/alunos/gabrielpgs-guilhermehgs/src/siguel  -e /home/eb/Dropbox/ED/CorrTrab/2020/t4/t  -o /home/eb/Dropbox/ED/CorrTrab/2020/t4/alunos/gabrielpgs-guilhermehgs/o -f c2.geo  -ec c2.ec -pm c2.pm   -q c2/1000-mudanca-morador.qry
+
+.[2021-03-15T10:35:21.807487].
+>> /home/eb/Dropbox/ED/CorrTrab/2020/t4/alunos/gabrielpgs-guilhermehgs/src/siguel  -e /home/eb/Dropbox/ED/CorrTrab/2020/t4/t  -o /home/eb/Dropbox/ED/CorrTrab/2020/t4/alunos/gabrielpgs-guilhermehgs/o -f c2.geo  -ec c2.ec -pm c2.pm   -q c2/dumptree.qry
+
+.[2021-03-15T10:35:29.794927].
+================================
